@@ -1,0 +1,122 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+@import './pagination-custom';
+
+$backgroundColor: #00012F; 
+$activeColor: #f50;
+$buttonTextColor: white;
+
+.logo-sidebar{
+  width: 100vh;
+  height: 100vh;
+}
+
+.background-login-color {
+  background-color: #F4F7FA;
+}
+
+td {
+  .text-middle-cell{
+    vertical-align: middle;
+  }
+}
+
+.table_legenda {
+  table-layout: fixed;
+  th {
+    word-wrap: break-word;
+  }
+}
+
+.loading {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.side-navbar {
+  background: $backgroundColor;
+  .sidenav-header {
+    background: $backgroundColor;
+  }
+  li ul {
+    background: $backgroundColor;
+  }
+  li {
+    a[aria-expanded="true"] {
+      background: $activeColor
+    }
+    a{
+      &:focus {
+        background: $activeColor
+      }
+      &:hover {
+        background: $activeColor
+      }      
+    }
+  }
+}
+
+nav.navbar {
+  background: $backgroundColor;
+  a.menu-btn {
+    background: $backgroundColor;
+    &:hover {
+      background: $activeColor; 
+    }
+  }
+}
+
+.btn {
+  background: $backgroundColor;
+  color: $buttonTextColor;
+  &:hover {
+    background: $activeColor;
+    color: $buttonTextColor;
+  }
+  &:focus {
+    background: $backgroundColor;
+    &:hover {
+      background: $activeColor; 
+    }
+  }
+}
+
+input.form-control-custom:checked + label::before {
+  background: $activeColor !important;
+}
+
+.card:not([class*="text"]) p {
+  color: black;
+}
+
+.btn-custom {
+  width: 100px !important;
+}
+
+.wrapper {
+    position:relative;
+  }
+
+.bottom {
+    position:absolute; bottom:0;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.i {
+  background-color: black; /* Blue background */
+  color: orange; /* White text */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+.react-calendar{
+  width: 100%;
+  height: 100%;
+}

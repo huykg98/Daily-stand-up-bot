@@ -1,0 +1,60 @@
+{
+	"template": {
+		"templateType": "",
+		"headerContainer": {
+			"formal": [
+				{
+					"componentName": "HeaderComponent"
+				}
+			]
+		},
+		"bodyContainer": {
+			"summaryStandupPageContainer": {
+				"mainContainer":[
+					{
+						"componentName": "SummaryStandupComponent"
+					}
+				]
+			},
+			"myStandupsPageContainer": {
+				"mainContainer":[
+					{
+						"componentName": "MyStandupsComponent"
+					}
+				]
+			},
+			"questionsTemplatePageContainer": {
+				"mainContainer":[
+					{
+						"componentName": "QuestionsTemplateComponent"
+					}
+				]
+			},
+			"sideBarContainer": {
+				"mainContainer":[
+					{
+						"componentName": "SidebarComponent"
+					}
+				]
+			},
+			"reportContainer": {
+				"mainContainer":[
+					{
+						"componentName": "ReportComponent"
+					}
+				]
+			}
+		},	
+		"footerContainer": [
+
+		],
+		
+		"cssFiles": [
+			{
+				"name": "hrm-ui/css/style_.min.css"
+			}
+		]
+	},
+	"initDataForComps": [],
+	"globalAttribute": {}
+}

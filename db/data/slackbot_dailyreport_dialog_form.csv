@@ -1,0 +1,24 @@
+"dialog_id";"title";"submit_label";"notify_on_cancel";"state";"date_created";"template_id";"schedule_id"
+0;"Test if  work";"Submit";1;"false";"2020-06-03";0;2
+1;"Test if update daily work";"Submit";1;"true";"2020-05-19";1;1
+2;"Test update daily work";"Submit";1;"true";"2020-05-19";1;2
+3;"Just test update function";"Submit";1;"true";"2020-05-19";3;1
+4;"Test if update daily work";"Submit";1;"true";"2020-05-31";1;2
+5;"Test if update daily work";"Submit";1;"true";"2020-05-31";1;2
+6;"Test if update daily work";"Submit";1;"false";"2020-05-31";1;2
+7;"Test if update daily work";"Submit";1;"false";"2020-05-31";1;2
+8;"Test if update daily work";"Submit";1;"false";"2020-05-31";1;2
+9;"Test if update daily work";"Submit";1;"false";"2020-06-02";1;2
+49;"aaaaaa";"Submit";1;"false";"2020-06-09";2;52
+50;"qwe neganqqq";"Submit";1;"false";"2020-06-09";3;53
+51;"qwe";"Submit";1;"false";"2020-06-09";3;54
+52;"negan aaaa";"Submit";1;"true";"2020-06-09";2;55
+53;"qweqqqq";"Submit";1;"true";"2020-06-09";3;56
+54;"qweqweqwexxxxx";"Submit";1;"true";"2020-06-09";3;57
+55;"asdasd";"Submit";1;"false";"2020-06-09";3;58
+56;"asd";"Submit";1;"false";"2020-06-09";2;59
+57;"wi van bu";"Submit";1;"true";"2020-06-09";2;60
+58;"qqqqq";"Submit";1;"false";"2020-06-09";2;61
+59;"ffff";"Submit";1;"true";"2020-06-09";2;62
+60;"neganeest";"Submit";1;"true";"2020-06-09";2;63
+61;"test updateeee";"Submit";1;"true";"2020-06-10";1;64

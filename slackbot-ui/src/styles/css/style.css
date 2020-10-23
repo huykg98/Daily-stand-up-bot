@@ -1,0 +1,115 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%; }
+
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none; }
+  .pagination > .active > a {
+    background-color: #f50;
+    border-color: #bfbfbf;
+    color: #ffffff; }
+  .pagination > li > a {
+    border: 1px solid #bfbfbf;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer; }
+  .pagination a:hover {
+    background-color: #ff7b00; }
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background-color: #f50;
+  border-color: #bfbfbf;
+  outline: none; }
+
+.pagination > li > a, .pagination > li > span {
+  color: black; }
+
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span {
+  border-radius: unset; }
+
+.logo-sidebar {
+  width: 100vh;
+  height: 100vh; }
+
+.background-login-color {
+  background-color: #F4F7FA; }
+
+td .text-middle-cell {
+  vertical-align: middle; }
+
+.table_legenda {
+  table-layout: fixed; }
+  .table_legenda th {
+    word-wrap: break-word; }
+
+.loading {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center; }
+
+.side-navbar {
+  background: #00012F; }
+  .side-navbar .sidenav-header {
+    background: #00012F; }
+  .side-navbar li ul {
+    background: #00012F; }
+  .side-navbar li a[aria-expanded="true"] {
+    background: #f50; }
+  .side-navbar li a:focus {
+    background: #f50; }
+  .side-navbar li a:hover {
+    background: #f50; }
+
+nav.navbar {
+  background: #00012F; }
+  nav.navbar a.menu-btn {
+    background: #00012F; }
+    nav.navbar a.menu-btn:hover {
+      background: #f50; }
+
+.btn {
+  background: #00012F;
+  color: white; }
+  .btn:hover {
+    background: #f50;
+    color: white; }
+  .btn:focus {
+    background: #00012F; }
+    .btn:focus:hover {
+      background: #f50; }
+
+input.form-control-custom:checked + label::before {
+  background: #f50 !important; }
+
+.card:not([class*="text"]) p {
+  color: black; }
+
+.btn-custom {
+  width: 100px !important; }
+
+.wrapper {
+  position: relative; }
+
+.bottom {
+  position: absolute;
+  bottom: 0; }
+
+.mt-10 {
+  margin-top: 10px; }
+
+.i {
+  background-color: black;
+  /* Blue background */
+  color: orange;
+  /* White text */
+  cursor: pointer;
+  /* Mouse pointer on hover */ }
+
+.react-calendar {
+  width: 100%;
+  height: 100%; }
